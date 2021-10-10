@@ -2,7 +2,7 @@ export default function Comment(props){
     return (
         <div className='comment'>
             {/* 评论的用户名 */}
-            <div className='comment-user'>
+            <div className='comment-username'>
                 <span>{props.comment.username} </span>：
             </div>
 
